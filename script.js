@@ -95,7 +95,7 @@ function goHome() {
 }
 
 function getDiscount(){
-    const coupon = getCouponCode();
+    const coupon = getCardTitle('coupon');
     const inputCoupon = getInputCoupon();
     if(coupon === inputCoupon){
         setDiscountAmount()
